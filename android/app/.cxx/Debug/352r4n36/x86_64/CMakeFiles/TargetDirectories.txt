@@ -1,0 +1,2 @@
+/home/barrack/Documents/StudioProjects/shoe_quest/shoe_quest/android/app/.cxx/Debug/352r4n36/x86_64/CMakeFiles/edit_cache.dir
+/home/barrack/Documents/StudioProjects/shoe_quest/shoe_quest/android/app/.cxx/Debug/352r4n36/x86_64/CMakeFiles/rebuild_cache.dir
