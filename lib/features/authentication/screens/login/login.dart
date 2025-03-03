@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
           // Form
           const TLoginForm(),
           // Divider
-          TFormDivider(dark: dark),
+          TFormDivider(dividerText: '', dark: dark,),
           SizedBox(height: TSizes.spaceBtwSections),
 
           // Footer ----Social Media Icons

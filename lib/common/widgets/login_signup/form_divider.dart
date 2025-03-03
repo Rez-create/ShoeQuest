@@ -6,7 +6,7 @@ import 'package:shoe_quest/utils/constants/text_strings.dart';
 class TFormDivider extends StatelessWidget {
   const TFormDivider({
     super.key,
-    required this.dark,
+    required this.dark, required String dividerText,
   });
 
   final bool dark;

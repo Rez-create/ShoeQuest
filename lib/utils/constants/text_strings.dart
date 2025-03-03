@@ -36,8 +36,9 @@ class TTexts {
   static const String alreadyHaveAnAccount = "Already have an account?";
   static const String dontHaveAnAccount = "Don't have an account?";
   static const String iAgreeTo = "I agree to";
+  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
-  static const String termsAndConditions = "Terms and Conditions";
+  static const String termsAndConditions = "Terms of use";
   static const String verificationCode = "Verification Code";
   static const String resendEmail = "Resend Email";
   static const String verify = "Verify";
@@ -47,7 +48,7 @@ class TTexts {
   static const String loginTitle = "Welcome back!";
   static const String loginSubtitle =
       "Discover Limitless Choices and Unmatched Convenience!";
-  static const String signUpTitle = "Create an account";
+  static const String signUpTitle = "Let's create your account";
   static const String forgetPasswordTitle = "Forgot Password?";
   static const String changePasswordTitle = "Change Password";
   static const String resetPasswordTitle = "Reset Password";
@@ -62,4 +63,6 @@ class TTexts {
       "Your Account has been successfully created!";
   static const String yourAccountCreatedSubtitle =
       "Welcome t our ultimate shopping destination! Your Account is created, Unleash the joy of seamless online shopping!";
+
+  static var termsOfUse;
 }

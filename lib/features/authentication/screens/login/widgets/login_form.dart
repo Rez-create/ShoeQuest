@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:shoe_quest/features/authentication/screens/signup/signup.dart';
 import 'package:shoe_quest/utils/constants/sizes.dart';
 import 'package:shoe_quest/utils/constants/text_strings.dart';
 
@@ -12,8 +14,7 @@ class TLoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Form(
         child: Padding(
-      padding:
-          const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
+      padding: const EdgeInsets.symmetric(vertical: TSizes.spaceBtwSections),
       child: Column(
         children: [
           // Email
@@ -24,7 +25,7 @@ class TLoginForm extends StatelessWidget {
             ),
           ),
           SizedBox(height: TSizes.spaceBtwInputField),
-    
+
           // Password
           TextFormField(
             decoration: InputDecoration(
@@ -34,7 +35,7 @@ class TLoginForm extends StatelessWidget {
             ),
           ),
           SizedBox(height: TSizes.spaceBtwInputField / 2),
-    
+
           // Remember Me and Forgot Password
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -52,7 +53,7 @@ class TLoginForm extends StatelessWidget {
             ],
           ),
           SizedBox(height: TSizes.spaceBtwSections),
-    
+
           // Login Button
           SizedBox(
             width: double.infinity,
@@ -61,14 +62,14 @@ class TLoginForm extends StatelessWidget {
               child: Text(TTexts.signIn),
             ),
           ),
-    
+
           SizedBox(height: TSizes.spaceBtwItems),
-    
+
           // Register
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-              onPressed: () {},
+              onPressed: () => Get.to(() => const SignupScreen()),
               child: Text(TTexts.createAccount),
             ),
           ),
@@ -77,4 +78,3 @@ class TLoginForm extends StatelessWidget {
     ));
   }
 }
-
