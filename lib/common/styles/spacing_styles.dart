@@ -8,4 +8,5 @@ class TSpacingStyle {
     left: TSizes.defaultSpaces,
     right: TSizes.defaultSpaces,
   );
+
 }

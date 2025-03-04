@@ -55,14 +55,14 @@ class TTexts {
   static const String changeYourPassword = "Password Reset Email Sent";
   static const String changeYourPasswordSubtitle =
       "We have sent an email with a link to reset your password. Please check your email.";
-  static const String confirmEmail = "Confirm Email";
+  static const String confirmEmail = "Verify your Email address.";
   static const String confirmEmailSubtitle =
-      "We have sent an email with a link to confirm your email. Please check your email.";
+      "Congratulations! Your Account Awaits. We have sent you an email with a link to verify your email. Please check your email.";
   static const String emailNotReceived = "Email not received?";
   static const String yourAccountCreatedTitle =
       "Your Account has been successfully created!";
   static const String yourAccountCreatedSubtitle =
-      "Welcome t our ultimate shopping destination! Your Account is created, Unleash the joy of seamless online shopping!";
+      "Welcome to our ultimate shopping destination! Your Account is created, Unleash the joy of seamless online shopping!";
 
-  static var termsOfUse;
+  static String tContinue = "Continue";
 }
