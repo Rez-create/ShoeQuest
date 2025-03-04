@@ -22,12 +22,12 @@ class OnBoardingController extends GetxController {
   // Update current Index & jump to the next page
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      // Navigate to the next screen
-      Get.offAll(const LoginScreen());
+      // Navigate to the next screen 
+      Get.offAll(() => const LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
-    }
+    } 
   }
 
   // Update current Index & jump to the previous page
