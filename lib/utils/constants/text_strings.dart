@@ -50,11 +50,12 @@ class TTexts {
       "Discover Limitless Choices and Unmatched Convenience!";
   static const String signUpTitle = "Let's create your account";
   static const String forgetPasswordTitle = "Forgot Password?";
-  static const String changePasswordTitle = "Change Password";
+  static const String forgetPasswordSubtitle =
+      "Don't worry, sometimes people can forget. Enter your email address and we'll send you a link to reset your password.";
   static const String resetPasswordTitle = "Reset Password";
-  static const String changeYourPassword = "Password Reset Email Sent";
+  static const String changeYourPasswordTitle = "Password reset email sent";
   static const String changeYourPasswordSubtitle =
-      "We have sent an email with a link to reset your password. Please check your email.";
+      "We have sent an email with a link to safely reset your password. Please check your email.";
   static const String confirmEmail = "Verify your Email address.";
   static const String confirmEmailSubtitle =
       "Congratulations! Your Account Awaits. We have sent you an email with a link to verify your email. Please check your email.";
@@ -65,4 +66,8 @@ class TTexts {
       "Welcome to our ultimate shopping destination! Your Account is created, Unleash the joy of seamless online shopping!";
 
   static String tContinue = "Continue";
+
+  static String submit = "Submit";
+
+  static String done = "Done";
 }
