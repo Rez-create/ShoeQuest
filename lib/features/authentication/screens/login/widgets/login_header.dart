@@ -20,7 +20,7 @@ class TLoginHeader extends StatelessWidget {
         Image(
           height: 150,
           image: AssetImage(
-              dark ? TImages.lightAppLogo : TImages.darkAppLogo),
+              dark ? TImages.darkAppLogo : TImages.lightAppLogo),
         ),
     
         // Title

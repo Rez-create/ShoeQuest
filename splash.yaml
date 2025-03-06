@@ -1,13 +1,15 @@
 flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  
   color: "#FFFFFF"
-  color_dark: "#272727"
-  image: assets/logos/ShoeQuest-light-splash.png
-  image_dark: assets/logos/ShoeQuest-dark-splash.png
+  color_dark: "#000000"
+  image: assets/logos/Splash-light.png
+  image_dark: assets/logos/Splash-dark.png
 
   android_12:
     color: "#FFFFFF"
-    color_dark: "#272727"
-    image: assets/logos/ShoeQuest-light-splash.png
-    image_dark: assets/logos/ShoeQuest-dark-splash.png
-
-  web: false
+    color_dark: "#000000"
+    image: assets/logos/Splash-light.png
+    image_dark: assets/logos/Splash-dark.png

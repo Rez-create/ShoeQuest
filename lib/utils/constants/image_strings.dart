@@ -2,8 +2,8 @@
 
 class TImages {
   //  --App logos
-  static const String darkAppLogo = 'assets/logos/app_logo_dark.png';
-  static const String lightAppLogo = 'assets/logos/app_logo_light.png';
+  static const String darkAppLogo = 'assets/logos/dark-logo.png';
+  static const String lightAppLogo = 'assets/logos/light-logo.png';
 
   // --Social Logos
   static const String google = 'assets/logos/google.png';
