@@ -23,11 +23,11 @@ class TImages {
   static const String productSaleIllustration =
       'assets/images/animations/product_sale.gif';
   static const String staticSuccessIllustration =
-      'assets/images/animations/success.png';
+      'assets/images/animations/success.gif';
   static const String deliveredInPlaneIllustration =
       'assets/images/animations/delivered_in_plane.gif';
   static const String deliveredEmailIllustration =
-      'assets/images/animations/delivered_email.gif';
+      'assets/images/animations/delivered_email.png';
   static const String verifyIllustration =
       'assets/images/animations/verify_email.gif';
 }
