@@ -2,7 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:shoe_quest/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:shoe_quest/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:shoe_quest/features/shop/screens/home/widgets/home_appbar.dart';
+import 'package:shoe_quest/utils/constants/sizes.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -18,9 +20,17 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   // ------------------------ HomeAppBar ------------------------
                   THomeAppBar(),
+                  const SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
 
                   // ------------------------ SearchBar ------------------------
-
+                  TSearchContainer(
+                    text: 'Search in Store',
+                  ),
+                  const SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
                   // ------------------------ Categories ------------------------
                 ],
               ),
