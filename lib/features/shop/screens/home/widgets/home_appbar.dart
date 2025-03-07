@@ -4,7 +4,6 @@ import 'package:shoe_quest/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:shoe_quest/utils/constants/colors.dart';
 import 'package:shoe_quest/utils/constants/text_strings.dart';
 
-
 class THomeAppBar extends StatelessWidget {
   const THomeAppBar({
     super.key,
@@ -20,7 +19,7 @@ class THomeAppBar extends StatelessWidget {
               style: Theme.of(context)
                   .textTheme
                   .labelMedium!
-                  .apply(color: TColors.grey)),
+                  .apply(color: TColors.black)),
           Text(TTexts.homeAppBarSubtitle,
               style: Theme.of(context)
                   .textTheme
@@ -29,7 +28,10 @@ class THomeAppBar extends StatelessWidget {
         ],
       ),
       actions: [
-        TCartCounterIcon(onPressed: () { }, iconColor: TColors.white,)
+        TCartCounterIcon(
+          onPressed: () {},
+          iconColor: TColors.white,
+        )
       ],
     );
   }
