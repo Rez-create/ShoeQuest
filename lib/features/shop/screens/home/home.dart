@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:shoe_quest/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:shoe_quest/features/shop/screens/home/widgets/home_appbar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -13,7 +14,16 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             TPrimaryHeaderContainer(
-              child: Container(),
+              child: Column(
+                children: [
+                  // ------------------------ HomeAppBar ------------------------
+                  THomeAppBar(),
+
+                  // ------------------------ SearchBar ------------------------
+
+                  // ------------------------ Categories ------------------------
+                ],
+              ),
             ),
           ],
         ),
