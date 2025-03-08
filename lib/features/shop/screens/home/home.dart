@@ -6,6 +6,8 @@ import 'package:shoe_quest/common/widgets/custom_shapes/containers/search_contai
 import 'package:shoe_quest/common/widgets/texts/section_heading.dart';
 import 'package:shoe_quest/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:shoe_quest/features/shop/screens/home/widgets/home_categories.dart';
+import 'package:shoe_quest/features/shop/screens/home/widgets/promo_slider.dart';
+import 'package:shoe_quest/utils/constants/image_strings.dart';
 import 'package:shoe_quest/utils/constants/sizes.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -53,6 +55,20 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                ],
+              ),
+            ),
+
+            // Body
+            Padding(
+              padding: const EdgeInsets.all(TSizes.defaultSpaces),
+              child: TPromoSlider(
+                banners: [
+                  TImages.promoBanner1,
+                  TImages.promoBanner2,
+                  TImages.promoBanner3,
+                  TImages.promoBanner4,
+                  TImages.promoBanner5,
                 ],
               ),
             ),

@@ -31,5 +31,20 @@ class TImages {
   static const String verifyIllustration =
       'assets/images/animations/verify_email.gif';
 
-  static var shoeIcon = '';
+  //  ---Categories Icons
+  static const String menShoeIcon = 'assets/icons/categories/men.png';
+  static const String ladiesShoeIcon = 'assets/icons/categories/ladies.png';
+  static const String kidsShoeIcon = 'assets/icons/categories/kids.png';
+  static const String sneakersShoeIcon = 'assets/icons/categories/sneakers.png';
+  static const String formalShoeIcon = 'assets/icons/categories/formal.png';
+  static const String sportShoeIcon = 'assets/icons/categories/sports.jpeg';
+
+
+
+  // Banners
+  static const String promoBanner1 = 'assets/images/banners/banner2.jpg';
+  static const String promoBanner2 = 'assets/images/banners/banner3.jpg';
+  static const String promoBanner3 = 'assets/images/banners/banner4.jpg';
+  static const String promoBanner4 = 'assets/images/banners/banner5.jpg';
+  static const String promoBanner5 = 'assets/images/banners/banner1.jpg';
 }
