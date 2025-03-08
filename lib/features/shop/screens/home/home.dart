@@ -3,7 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:shoe_quest/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:shoe_quest/common/widgets/custom_shapes/containers/search_container.dart';
+import 'package:shoe_quest/common/widgets/texts/section_heading.dart';
 import 'package:shoe_quest/features/shop/screens/home/widgets/home_appbar.dart';
+import 'package:shoe_quest/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:shoe_quest/utils/constants/sizes.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -32,6 +34,25 @@ class HomeScreen extends StatelessWidget {
                     height: TSizes.spaceBtwSections,
                   ),
                   // ------------------------ Categories ------------------------
+                  Padding(
+                    padding: const EdgeInsets.only(left: TSizes.defaultSpaces),
+                    child: Column(
+                      children: [
+                        // Heading
+                        TSectionHeading(
+                          title: 'Popular Categories',
+                          showActionButton: false,
+                          textColor: Colors.white,
+                        ),
+                        const SizedBox(
+                          height: TSizes.spaceBtwSections,
+                        ),
+
+                        // Categories
+                        THomeCategories(),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),

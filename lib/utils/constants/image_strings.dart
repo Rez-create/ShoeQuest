@@ -30,4 +30,6 @@ class TImages {
       'assets/images/animations/delivered_email.png';
   static const String verifyIllustration =
       'assets/images/animations/verify_email.gif';
+
+  static var shoeIcon = '';
 }
