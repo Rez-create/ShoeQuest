@@ -39,12 +39,14 @@ class TImages {
   static const String formalShoeIcon = 'assets/icons/categories/formal.png';
   static const String sportShoeIcon = 'assets/icons/categories/sports.jpeg';
 
-
-
   // Banners
   static const String promoBanner1 = 'assets/images/banners/banner2.jpg';
   static const String promoBanner2 = 'assets/images/banners/banner3.jpg';
   static const String promoBanner3 = 'assets/images/banners/banner4.jpg';
   static const String promoBanner4 = 'assets/images/banners/banner5.jpg';
   static const String promoBanner5 = 'assets/images/banners/banner1.jpg';
+
+  // Products
+  static const String productImage1 = 'assets/images/products/j9.png';
+  static const String productImage2 = 'assets/images/products/j9c.png';
 }
