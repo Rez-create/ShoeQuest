@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:shoe_quest/features/shop/screens/home/home.dart';
+import 'package:shoe_quest/features/shop/screens/store/store.dart';
 import 'package:shoe_quest/utils/constants/colors.dart';
 import 'package:shoe_quest/utils/helpers/helper_functions.dart';
 
@@ -43,9 +44,8 @@ class NavigationController extends GetxController {
 
   final screens = [
     const HomeScreen(),
-    Container(
-      color: Colors.blue,
-    ),
+    const StoreScreen(),
+    
     Container(
       color: Colors.green,
     ),
