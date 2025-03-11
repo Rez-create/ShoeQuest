@@ -48,7 +48,6 @@ class TImages {
 
   // Products
   static const String productImage1 = 'assets/images/products/j9.png';
-  static const String productImage2 = 'assets/images/products/j9c.png';
 
   // brands
   static const String nikeIcon = 'assets/icons/brands/nike.png';
